@@ -1,0 +1,291 @@
+/* styles were put into an external stylesheet for ease
+of editing if this becomes a problem let me know so i 
+can just copy paste the code back into the actual page 
+for you to view. */
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body, td, th {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	background-image: url(images/container-bg-gold-lines.png);
+	background-repeat: repeat-y;
+}
+#header {
+	text-align: center;
+	background-color: #FCD04C;
+	border: 1px solid #000000;
+	margin-top: 0px;
+	background-image: url(images/argyle-bg.png);
+	background-repeat: repeat;
+	height: 130px;
+}
+#content {
+	width: 748px;
+	float: left;
+	padding-left: 11px;
+	border-right: 1px solid #000000;
+}
+#sidebar {
+	float: left;
+	width: 160px;
+	margin-left: 10px;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	background-color: #FCD04C;
+	border: 1px solid #000000;
+}
+#footer ul {
+	list-style-type: none;
+	padding-top: 0px;
+}
+#footer ul li {
+	display: inline;
+}
+#header-name {
+	margin-top: 0px;
+	font-family:"amatic-sc", "Gill Sans MT Condensed", "Gill Sans MT", "sans-serif";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 33px;
+	
+}
+#header-tagline {
+	margin-bottom: 0px;
+	color: #1B1B1B;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: -20px;
+}
+.characters img {
+	float: left;
+	clear: both;
+	padding-right: 28px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.characters {
+	clear: both;
+	float: left;
+	padding-right: 14px;
+	margin-right: 10px;
+	border: 1px solid #000000;
+	margin-bottom: 5px;
+}
+.float-left {
+	float: left;
+	clear: both;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.float-right {
+	float: right;
+	clear: right;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#sidebar p img {
+	margin-left: 24px;
+}
+.sitenav {
+	
+}
+	.sitenav ul {
+		list-style-type: none;
+		
+	}
+	.sitenav ul li {
+	width: 160px;
+	margin-left: -40px;
+	padding-top: 5px;
+	padding-bottom: 5px;		
+	}
+	
+	
+		
+	
+	.sitenav ul li a:link, a:visited{
+		display: block;
+		text-decoration: none;
+		color: #000000;
+		font-size: 18px;
+		border: 1px solid #ac1307;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		padding-left: 7px;
+		padding-bottom: 3px;
+		padding-top: 2px;
+		background-color: #fcd04c;
+		-o-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		
+	} 
+	.sitenav ul li a:hover, a:active{
+		display: block;
+		background-color: #FEF4D5;
+	}
+	#content table {
+		width: 750px;
+	}
+	
+	#content table, td, th {
+		border: 1px solid #000000;
+		border-collapse: collapse;
+		padding: 3px 9px 3px 13px;
+		
+	}
+	
+	#content table .column1{
+	width: 250px;
+	font-size: 120%;
+	color: #AC1307;
+		background-color: #FCD04C;
+	}
+	
+	#content table .column2{
+	font-size: 120%;
+	color: #AC1307;
+	background-color: #FCD04C;
+	}
+	
+	#content table tr:nth-child(odd){
+		background-color: lightgray;
+		
+	}
+	.required {
+		color: red;
+		font-weight: bold;
+		
+	}
+	
+	#contact-form {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+		border: 1px solid black;
+		width: 500px;
+		height: 360px;
+		-o-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		padding-top: 20px
+	}
+	
+	#contact-form label{
+		float: left;
+		width: 100px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 25px;
+		margin-right: 20px;
+	}
+	#contact-form input{
+		float: left;
+		padding: 5px;
+		width: 242px;
+		margin-top: 10px;
+		
+		
+	}
+	#contact-form textarea {
+		float: left;
+		height: 100px;
+		width: 250px;
+		margin-top: 15px;
+		
+	}
+	
+	#contact-form select{
+		float: left;
+			margin-top: 8px;
+		width: 255px;
+		padding: 5px;
+		
+	}
+	
+	#mailtag {
+		clear: left;
+		width: 50px;
+	}
+	#phonetag {
+		clear: left;
+	}
+	#subjecttag {
+		clear: left;
+		
+	}
+	
+	#messagetag {
+		clear: left;
+	}
+	#contact-form #submitcss {
+		float: left;
+		text-align: center;
+		margin-top: 10px;
+		width: 257px;
+		margin-left: 145px;
+		margin-bottom: 10px;
+		
+		
+	}
+	#subject {
+		margin-top: 10px;
+	}
+	
+	#phone {
+		margin-bottom: 20px;
+	}
+
+
+/* side bar advert css is down below */
+
+
+.side-advert {
+width: 160px;
+background-color: white;
+min-height: 160px;
+text-align: center;
+border: 1px solid #ac1307;
+-o-border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-ms-border-radius: 10px;
+border-radius: 10px;
+}
+	
+.side-advert p {
+	padding: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.side-advert a {
+	text-decoration: none;
+	
+}
+
+
